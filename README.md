@@ -1,5 +1,5 @@
-#### Key Value Contracts
+## Key Value Contracts
 ### An acceptance test project for Contract
 
-## Full Documentation
+#### Full Documentation
 [Link](http://harmingcola.github.io/contract/)

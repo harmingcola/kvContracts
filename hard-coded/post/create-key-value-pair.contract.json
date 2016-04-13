@@ -1,7 +1,7 @@
 {
   "request" : {
     "method" : "POST",
-    "path" : "/pair",
+    "path" : "/kv/pair",
     "headers": {
       "Content-Type" : "application/json"
     },

@@ -1,0 +1,14 @@
+{
+  "request" : {
+    "method" : "PUT",
+    "path" : "/kv/pair",
+    "headers": {
+      "content-type" : "application/json"
+    },
+    "body": "{\"key\": \"height\",\"value\": \"180\"}"
+  },
+  "response" : {
+    "status" : 200,
+    "body": "{\"key\": \"height\",\"value\": \"180\"}"
+  }
+}

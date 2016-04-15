@@ -5,7 +5,7 @@
   },
   "response" : {
     "status" : 200,
-    "headers" {
+    "headers" : {
     	"allow" : "OPTIONS,GET,HEAD,POST,PUT,DELETE"	
     }
   }

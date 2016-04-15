@@ -1,0 +1,9 @@
+{
+  "request" : {
+    "method" : "DELETE",
+    "path" : "/kv/pair/blood-pressure"
+  },
+  "response" : {
+    "status" : 204
+  }
+}

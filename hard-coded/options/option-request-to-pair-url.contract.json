@@ -5,6 +5,8 @@
   },
   "response" : {
     "status" : 200,
-    "allow" : "OPTIONS,GET,HEAD,POST,PUT,DELETE"
+    "headers" {
+    	"allow" : "OPTIONS,GET,HEAD,POST,PUT,DELETE"	
+    }
   }
 }

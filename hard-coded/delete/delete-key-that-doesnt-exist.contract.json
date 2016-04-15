@@ -1,11 +1,7 @@
 {
   "request" : {
-    "method" : "PUT",
-    "path" : "/kv/pair",
-    "headers": {
-      "content-type" : "application/json"
-    },
-    "body": "{\"key\": \"dateOfBirth\",\"value\": \"1970-01-01\"}"
+    "method" : "DELETE",
+    "path" : "/kv/pair/ankle-circumference"
   },
   "response" : {
     "status" : 404

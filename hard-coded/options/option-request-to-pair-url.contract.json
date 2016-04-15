@@ -1,0 +1,10 @@
+{
+  "request" : {
+    "method" : "OPTIONS",
+    "path" : "/kv/pair/weight"
+  },
+  "response" : {
+    "status" : 200,
+    "allow" : "OPTIONS,GET,HEAD,POST,PUT,DELETE"
+  }
+}

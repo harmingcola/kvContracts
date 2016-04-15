@@ -6,7 +6,7 @@
   "response" : {
     "status" : 200,
     "headers" : {
-    	"allow" : "OPTIONS,GET,HEAD,POST,PUT,DELETE"	
+    	"Allow" : "OPTIONS,GET,HEAD,POST,PUT,DELETE"	
     }
   }
 }

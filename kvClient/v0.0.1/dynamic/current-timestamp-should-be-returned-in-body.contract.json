@@ -5,6 +5,6 @@
   },
   "response" : {
     "status" : 200,
-    "body" : "${contract.timestamp}
+    "body" : "${contract.timestamp}"
   }
 }

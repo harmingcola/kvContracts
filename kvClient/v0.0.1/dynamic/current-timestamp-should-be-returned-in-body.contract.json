@@ -1,0 +1,10 @@
+{
+  "request" : {
+    "method" : "GET",
+    "path" : "/kv/service/times"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "\"${contract.timestamp}\""
+  }
+}

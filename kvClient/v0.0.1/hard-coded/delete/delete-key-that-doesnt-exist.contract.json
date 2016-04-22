@@ -4,6 +4,7 @@
     "path" : "/kv/pair/ankle-circumference"
   },
   "response" : {
-    "status" : 404
+    "status" : 404,
+    "body" : "No key [ankle-circumference] exists, cannot be updated"
   }
 }

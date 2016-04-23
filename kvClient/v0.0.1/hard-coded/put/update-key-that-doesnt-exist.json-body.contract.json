@@ -12,6 +12,8 @@
   },
   "response" : {
     "status" : 404,
-    "body" : "No key [dateOfBirth] exists, cannot be updated"
+    "body" : {
+      "message" : "No key [dateOfBirth] exists, cannot be updated"
+    }
   }
 }

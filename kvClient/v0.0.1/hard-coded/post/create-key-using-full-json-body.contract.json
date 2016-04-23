@@ -1,0 +1,20 @@
+{
+  "request" : {
+    "method" : "POST",
+    "path" : "/kv/pair",
+    "headers": {
+      "content-type" : "application/json"
+    },
+    "body": {
+        "key": "name",
+        "value": "create key value pair, full json body test 0002"
+      }
+  },
+  "response" : {
+    "status" : 201,
+    "body" : {
+        "key": "name",
+        "value": "create key value pair, full json body test 0002"
+      }
+  }
+}

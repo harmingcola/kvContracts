@@ -1,12 +1,12 @@
 {
   "request" : {
     "method" : "GET",
-    "path" : "/kv/pair/weight"
+    "path" : "/kv/pair/weight-json"
   },
   "response" : {
     "status" : 200,
     "body" : {
-    	"key": "weight",
+    	"key": "weight-json",
 		"value": "220"
 	}
   }

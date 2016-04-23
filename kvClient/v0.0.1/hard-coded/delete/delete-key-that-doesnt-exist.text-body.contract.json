@@ -5,6 +5,8 @@
   },
   "response" : {
     "status" : 404,
-    "body" : "No key [ankle-circumference] exists, cannot be updated"
+    "body" : {
+      "message" : "No key [ankle-circumference] exists, cannot be updated"
+    }
   }
 }

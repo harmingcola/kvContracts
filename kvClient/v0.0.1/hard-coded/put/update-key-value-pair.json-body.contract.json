@@ -1,4 +1,7 @@
 {
+  "info" : {
+    "details": "The server will respond with a 200 and the updated body for a valid put request to update a key"
+  },
   "request" : {
     "method" : "PUT",
     "path" : "/kv/pair",

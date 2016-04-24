@@ -1,4 +1,7 @@
 {
+  "info" : {
+    "details": "The server should accept and store a key for a valid post request, it should respond with the created key"
+  },
   "request" : {
     "method" : "POST",
     "path" : "/kv/pair",

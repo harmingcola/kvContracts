@@ -1,4 +1,7 @@
 {
+  "info" : {
+    "details": "The server should return the current timestamp when requested"
+  },
   "request" : {
     "method" : "GET",
     "path" : "/kv/service/times"

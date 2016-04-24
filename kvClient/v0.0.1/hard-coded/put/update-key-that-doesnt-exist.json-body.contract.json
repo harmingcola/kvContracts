@@ -1,4 +1,7 @@
 {
+  "info" : {
+    "details": "The server will respond with a 404 for a put request to update a key that doesn't exist"
+  },
   "request" : {
     "method" : "PUT",
     "path" : "/kv/pair",

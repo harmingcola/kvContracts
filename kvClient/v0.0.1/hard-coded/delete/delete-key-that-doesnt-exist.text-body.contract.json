@@ -1,4 +1,7 @@
 {
+  "info" : {
+    "details": "The server should return a 404 for a delete request when the key doesn't exist"
+  },
   "request" : {
     "method" : "DELETE",
     "path" : "/kv/pair/ankle-circumference"

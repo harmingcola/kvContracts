@@ -1,4 +1,7 @@
 {
+  "info" : {
+    "details": "The server should return a key-value pair for a valid get request"
+  },
   "request" : {
     "method" : "GET",
     "path" : "/kv/pair/weight-json"

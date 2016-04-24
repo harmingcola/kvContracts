@@ -1,4 +1,7 @@
 {
+  "info" : {
+    "details": "The server should return a 204 for a valid delete request"
+  },
   "request" : {
     "method" : "DELETE",
     "path" : "/kv/pair/blood-pressure"

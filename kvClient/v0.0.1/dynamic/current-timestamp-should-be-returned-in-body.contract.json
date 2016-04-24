@@ -4,10 +4,16 @@
   },
   "request" : {
     "method" : "GET",
-    "path" : "/kv/service/times"
+    "path" : "/kv/service/times",
+    "headers" : {
+      "source-app" : "kvClient"
+    }
   },
   "response" : {
     "status" : 200,
-    "body" : "${contract.timestamp}"
+    "body" : "${contract.timestamp}",
+    "headers" : {
+      "source-app" : "kvServer"
+    }
   }
 }

@@ -4,22 +4,14 @@
   },
   "request" : {
     "method" : "GET",
-    "path" : "/kv/pair?key=e"
+    "path" : "/kv/pair?key=weight"
   },
   "response" : {
     "status" : 200,
     "body" : [
       {
-        "key": "height",
-        "value": "188"
-      },
-      {
-        "key": "table",
-        "value": "I'm a table"
-      },
-      {
-        "key": "blood-pressure",
-        "value": "6"
+        "key": "weight-json",
+        "value": "220"
       },
       {
         "key": "weight",

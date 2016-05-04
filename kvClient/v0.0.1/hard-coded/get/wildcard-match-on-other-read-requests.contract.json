@@ -1,0 +1,13 @@
+{
+  "info" : {
+    "details": "For any requests not already specified with exact paths"
+  },
+  "request" : {
+    "method" : "GET",
+    "path" : "/kv/pair/${contract.anyString}"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"key\": \"other\",\"value\": \"returned by contract.anyString match\"}"
+  }
+}

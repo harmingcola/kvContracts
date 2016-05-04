@@ -7,7 +7,7 @@
     "path" : "/kv/pair/${contract.anyString}"
   },
   "response" : {
-    "status" : 200,
-    "body" : "{\"key\": \"other\",\"value\": \"returned by contract.anyString match\"}"
+    "status" : 404,
+    "body" : "{\"message\":\"Requested key does not exist\"}"
   }
 }

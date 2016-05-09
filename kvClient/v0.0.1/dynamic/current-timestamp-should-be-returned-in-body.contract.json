@@ -1,7 +1,7 @@
 {
   "info" : {
     "details": "The server should return the current timestamp when requested",
-    "tags": "timestamp"
+    "tags": ["timestamp"]
   },
   "request" : {
     "method" : "GET",

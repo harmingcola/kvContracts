@@ -1,0 +1,18 @@
+<contract>
+    <info>
+        <details>The server should return a key-value pair for a valid xml request</details>
+    </info>
+    <request>
+        <method>GET</method>
+        <path>/kv/pair/weight-xml</path>
+    </request>
+    <response>
+        <status>200</status>
+        <body>
+            <pair>
+                <key>weight-xml</key>
+                <value>220</value>
+            </pair>
+        </body>
+    </response>
+</contract>

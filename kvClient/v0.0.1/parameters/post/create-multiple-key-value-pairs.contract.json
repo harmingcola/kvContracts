@@ -1,0 +1,41 @@
+{
+  "info" : {
+    "details": "The server should accept and store multiple create key/value requests and respond correctly"
+  },
+  "parameters" : [
+    {
+      "first" : "iron",
+      "last": "man"
+    },
+    {
+      "first" : "captain",
+      "last": "america"
+    },
+    {
+      "first" : "incredible",
+      "last": "hulk"
+    },
+    {
+      "first" : "black",
+      "last": "widow"
+    }
+  ],
+  "request" : {
+    "method" : "POST",
+    "path" : "/kv/pair",
+    "headers": {
+      "content-type" : "application/json"
+    },
+    "body": {
+      "key": "${contract.parameters.first}",
+      "value": "${contract.parameters.last}"
+    }
+  },
+  "response" : {
+    "status" : 201,
+    "body" : {
+      "key": "${contract.parameters.first}",
+      "value": "${contract.parameters.last}"
+    }
+  }
+}

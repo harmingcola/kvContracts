@@ -27,15 +27,15 @@
       "content-type" : "application/json"
     },
     "body": {
-      "key": "${contract.parameters.first}",
-      "value": "${contract.parameters.last}"
+      "key": "${contract.parameter.first}",
+      "value": "${contract.parameter.last}"
     }
   },
   "response" : {
     "status" : 201,
     "body" : {
-      "key": "${contract.parameters.first}",
-      "value": "${contract.parameters.last}"
+      "key": "${contract.parameter.first}",
+      "value": "${contract.parameter.last}"
     }
   }
 }

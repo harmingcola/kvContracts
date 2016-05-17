@@ -10,7 +10,7 @@
   ],
   "request" : {
     "method" : "GET",
-    "path" : "/kv/pair/"
+    "path" : "/kv/pair/${contract.parameters.key}"
   },
   "response" : {
     "status" : "${contract.parameters.expectedStatus}"

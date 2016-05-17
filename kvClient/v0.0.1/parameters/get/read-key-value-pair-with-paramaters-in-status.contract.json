@@ -1,0 +1,18 @@
+{
+  "info" : {
+    "details": "The server should return a key-value pair for a valid get request, even with parmeters"
+  },
+  "parameters" : [
+    {
+      "key" : "weight-json",
+      "expectedStatus": 200
+    }
+  ],
+  "request" : {
+    "method" : "GET",
+    "path" : "/kv/pair/"
+  },
+  "response" : {
+    "status" : "${contract.parameters.expectedStatus}"
+  }
+}

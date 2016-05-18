@@ -10,7 +10,7 @@
     "status" : 200,
     "body" : {
     	"key": "weight-json",
-		"value": "220"
-	}
+		  "value": "220"
+	  }
   }
 }

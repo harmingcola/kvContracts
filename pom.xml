@@ -19,7 +19,7 @@
             <plugin>
                 <groupId>org.seekay</groupId>
                 <artifactId>contract-maven-plugin</artifactId>
-                <version>0.0.5-SNAPSHOT</version>
+                <version>0.0.6-SNAPSHOT</version>
                 <configuration>
                     <localSource>.</localSource>
                     <port>9005</port>

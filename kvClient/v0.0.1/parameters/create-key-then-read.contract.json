@@ -1,0 +1,38 @@
+{
+  "info" : {
+    "details": "The server should accept and store a key for a valid post request, the key should then be read back "
+  },
+  "setup": [
+    {
+      "request": {
+        "method": "POST",
+        "path": "/kv/pair",
+        "headers": {
+          "content-type": "application/json"
+        },
+        "body": {
+          "key": "laptop-size",
+          "value": "13"
+        }
+      },
+      "response": {
+        "status": 201,
+        "body": {
+          "key": "laptop-size",
+          "value": "13"
+        }
+      }
+    }
+  ],
+  "request": {
+    "method": "GET",
+    "path": "/kv/pair/laptop-size"
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "key": "laptop-size",
+      "value": "13"
+    }
+  }
+}

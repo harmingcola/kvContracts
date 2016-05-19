@@ -2,6 +2,36 @@
   "info" : {
     "details": "The server should return a list of key value pairs when queried with a search parameter"
   },
+  "setup": [
+    {
+      "request": {
+        "method": "POST",
+        "path": "/kv/pair",
+        "headers": {
+          "content-type": "application/json"
+        },
+        "body": "{\"key\": \"weight\",\"value\": \"220\"}"
+      },
+      "response": {
+        "status": 201,
+        "body": "{\"key\": \"weight\",\"value\": \"220\"}"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/kv/pair",
+        "headers": {
+          "content-type": "application/json"
+        },
+        "body": "{\"key\": \"weight-json\",\"value\": \"220\"}"
+      },
+      "response": {
+        "status": 201,
+        "body": "{\"key\": \"weight-json\",\"value\": \"220\"}"
+      }
+    }
+  ],
   "request" : {
     "method" : "GET",
     "path" : "/kv/pair?key=weight"

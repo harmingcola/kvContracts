@@ -2,9 +2,32 @@
   "info" : {
     "details": "The server should return a key-value pair for a valid get request, even with parmeters"
   },
+  "setup": [
+    {
+      "request": {
+        "method": "POST",
+        "path": "/kv/pair",
+        "headers": {
+          "content-type": "application/json"
+        },
+        "body": {
+          "key": "${contract.parameter.key}",
+          "value": "${contract.parameter.value}"
+        }
+      },
+      "response": {
+        "status": 201,
+        "body": {
+          "key": "${contract.parameter.key}",
+          "value": "${contract.parameter.value}"
+        }
+      }
+    }
+  ],
   "parameters" : [
     {
-      "key" : "weight-json",
+      "key" : "density",
+      "value" : "5400",
       "expectedStatus": 200
     }
   ],

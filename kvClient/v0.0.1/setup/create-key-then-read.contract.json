@@ -1,7 +1,6 @@
 {
   "info" : {
-    "details": "The server should accept and store a key for a valid post request, the key should then be read back",
-    "tags" : ["setup"]
+    "details": "The server should accept and store a key for a valid post request, the key should then be read back"
   },
   "setup": [
     {

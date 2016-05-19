@@ -2,6 +2,28 @@
   "info" : {
     "details": "The server should return a key-value pair for a valid get request"
   },
+  "setup": [
+    {
+      "request": {
+        "method": "POST",
+        "path": "/kv/pair",
+        "headers": {
+          "content-type": "application/json"
+        },
+        "body": {
+          "key": "weight-json",
+          "value": "220"
+        }
+      },
+      "response": {
+        "status": 201,
+        "body": {
+          "key": "weight-json",
+          "value": "220"
+        }
+      }
+    }
+  ],
   "request" : {
     "method" : "GET",
     "path" : "/kv/pair/weight-json"

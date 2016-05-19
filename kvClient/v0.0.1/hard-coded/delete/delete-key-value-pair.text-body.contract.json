@@ -2,6 +2,28 @@
   "info" : {
     "details": "The server should return a 204 for a valid delete request"
   },
+  "setup": [
+    {
+      "request": {
+        "method": "POST",
+        "path": "/kv/pair",
+        "headers": {
+          "content-type": "application/json"
+        },
+        "body": {
+          "key": "blood-pressure",
+          "value": "6"
+        }
+      },
+      "response": {
+        "status": 201,
+        "body": {
+          "key": "blood-pressure",
+          "value": "6"
+        }
+      }
+    }
+  ],
   "request" : {
     "method" : "DELETE",
     "path" : "/kv/pair/blood-pressure"
